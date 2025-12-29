@@ -116,13 +116,13 @@ Z轴快速10
 /*
 交易宏10
 */
-Home:: {
++Home:: {
     loop 10 {
         Send("{Enter}")
         Send("{up}")
     }
 }
-End:: {
++End:: {
     loop 10 {
         Send("{Enter}")
         Send("{down}")
