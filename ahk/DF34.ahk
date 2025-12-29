@@ -112,3 +112,19 @@ Z轴快速10
         Send("{Right}")
     }
 }
+
+/*
+交易宏10
+*/
+Home:: {
+    loop 10 {
+        Send("{Enter}")
+        Send("{up}")
+    }
+}
+End:: {
+    loop 10 {
+        Send("{Enter}")
+        Send("{down}")
+    }
+}
